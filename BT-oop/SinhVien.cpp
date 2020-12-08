@@ -1,11 +1,14 @@
 #include "SinhVien.h"
 
-SinhVien::SinhVien(string ten,int tuoi, string add,bool gender,string msv,double dtb)
-:Person(ten,tuoi,diachi,gioitinh)
+SinhVien::SinhVien()
 {
+  this->ten = "";
+  this->tuoi = 0;
+  this->diachi = "";
+  this->gioitinh = 0;
   this->lop = nullptr;
-  this->msv = msv;
-  this->dtb = dtb;
+  this->msv = "";
+  this->dtb = 0.0;
 }
 
 SinhVien::~SinhVien()

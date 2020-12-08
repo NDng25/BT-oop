@@ -38,6 +38,7 @@ void ThongTinLop()
 void SapXep()
 {
     int ch;
+    system("CLS");
     cout << "1. Sap xep theo diem tb tang dan." << endl
         << "2. Sap xep theo diem tb giam dan." << endl;
     cin >> ch;
@@ -51,6 +52,7 @@ void TimKiem()
 {
     string s;
     int index;
+    system("CLS");
     cout << "Nhap msv can tim: ";
     cin.ignore();
     cin >> s;
@@ -64,6 +66,7 @@ void XoaSV()
 {
     string s;
     int index;
+    system("CLS");
     cout << "Nhap msv can xoa: ";
     cin.ignore();
     cin >> s;
@@ -78,6 +81,7 @@ void SuaThongTin()
     char ch;
     int index;
     string s;
+    system("CLS");
     cout << "1. Update thong tin SV." << endl
         << "2. Update thong tin GVCN." << endl
         << "Nhap lua chon: ";
@@ -153,7 +157,7 @@ void Menu()
     case '4': XoaSV(); break;
     case '5': TimKiem(); break;
     case '6': SapXep(); break;
-    case '0': exit(1); break;
+    case '0': system("CLS");exit(1); break;
     default: Menu();
     }
 }

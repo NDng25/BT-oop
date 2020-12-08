@@ -13,7 +13,7 @@ private:
   double dtb;
   void addLop(LopSinhHoat<SinhVien,Lecturer>*);
 public:
-  SinhVien(string = "",int = 0,string = "",bool = true,string = "",double = 0.0);
+  SinhVien();
   ~SinhVien();
   string getId();
   string getTen();

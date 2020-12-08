@@ -157,7 +157,6 @@ int LopSinhHoat<T, V>::Search(string msv) //Tra ve vi tri cua sv co msv
 	{
 		if ((*this)[i].getId() == msv)
 		{
-			cout << (*this)[i];
 			return i;
 		}
 	}
