@@ -13,13 +13,6 @@ LopSinhHoat<T, V>::~LopSinhHoat()
 {
 	delete[] this->dssv;
 }
-//template<class T, class V>
-//void LopSinhHoat<T, V>::setTen(istream& i)
-//{
-//	cout << "Nhap ten lop: ";
-//	fflush(stdin);
-//	i >> this->tenlop;
-//}
 
 template<class T, class V>
 string LopSinhHoat<T, V>::getTen()
